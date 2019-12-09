@@ -61,7 +61,7 @@ export default class FigmaLoginComponent extends React.Component<
   };
 
   sendTokenRequest = (code: string) => {
-    const { clientId, clientSecret, redirectUri, domain } = this.props;
+    const { clientId, clientSecret, redirectUri } = this.props;
     const uri = encodeURIComponent(redirectUri || window.location.href);
     return fetch(
       `https://www.figma.com/api/oauth/token?client_id=${clientId}&client_secret=${clientSecret}&redirect_uri=${uri}&code=${code}&grant_type=authorization_code`,

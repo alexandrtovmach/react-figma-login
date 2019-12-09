@@ -38,7 +38,7 @@ export default class ExaplePage extends React.Component {
   };
 
   render() {
-    const { clientId, clientSecret, scope, buttonTheme, debug, domain, customClassName, redirectUri } = this.state;
+    const { clientId, clientSecret, scope, buttonTheme, customClassName, redirectUri } = this.state;
     return (
       <div className="viewport">
         <Segment basic>
