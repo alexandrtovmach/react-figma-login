@@ -11,7 +11,7 @@ React component for a simple OAuth login with Figma.
 
 ![image](https://user-images.githubusercontent.com/28801003/70469597-ff2f5300-1ad1-11ea-880f-2d604d9ed41b.png)
 
-### Get Started
+### 🚀 Get Started
 
 Follow these steps to start using React Figma Login:
 
@@ -50,7 +50,7 @@ export default props => {
 
 3. Find more info about keys and OAuth apps in [Figma official docs](https://www.figma.com/developers/api#oauth2)
 
-### API
+### 📖 API
 
 | Property     | Type                                                       | Default   | Description                                                            |
 | ------------ | ---------------------------------------------------------- | --------- | ---------------------------------------------------------------------- |
