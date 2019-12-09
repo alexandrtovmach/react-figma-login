@@ -61,3 +61,7 @@ export default props => {
 | scope        | string                                                     | required  | Scope that will be requested. For now only `"file_read"` is available. |
 | buttonTheme  | enum(`"light"`, `"light_short"`, `"dark"`, `"dark_short"`) | `"light"` | Button style theme that based on Figma styles                         |
 | className    | string                                                     | `""`      | Custom class name                                                      |
+
+### 📝 License
+
+[MIT](https://github.com/nishanths/license/blob/master/LICENSE)
