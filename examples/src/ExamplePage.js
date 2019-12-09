@@ -135,7 +135,6 @@ export default class ExaplePage extends React.Component {
                 // debug={debug}
                 clientId={clientId}
                 clientSecret={clientSecret}
-                domain={domain}
                 authCallback={this.loginHandler}
                 buttonTheme={buttonTheme}
                 className={customClassName}

@@ -24,11 +24,6 @@ interface FigmaLoginProps {
   scope: string;
 
   /**
-   * Organization domain name
-   */
-  domain: string;
-
-  /**
    * The redirect URI of the application, this should be same as the value in the application registration portal.
    */
   redirectUri: string;
