@@ -17,36 +17,36 @@ Follow these steps to start using React Figma Login:
 
 1. Installation
 
-```sh
-# with npm
-npm i react-figma-login
+   ```sh
+   # with npm
+   npm i react-figma-login
 
-# with yarn
-yarn add react-figma-login
-```
+   # with yarn
+   yarn add react-figma-login
+   ```
 
 2. Import and configure component.
 
-```jsx
-import React from "react";
-import FigmaLogin from "react-figma-login";
+   ```jsx
+   import React from "react";
+   import FigmaLogin from "react-figma-login";
 
-export default props => {
-  const authHandler = (err, data) => {
-    console.log(err, data);
-  };
+   export default props => {
+     const authHandler = (err, data) => {
+       console.log(err, data);
+     };
 
-  return (
-    <FigmaLogin
-      authCallback={authHandler}
-      clientId={CLIENT_ID}
-      clientSecret={CLIENT_SECRET}
-      redirectUri={REDIRECT_URI}
-      scope={SCOPE}
-    />
-  );
-};
-```
+     return (
+       <FigmaLogin
+         authCallback={authHandler}
+         clientId={CLIENT_ID}
+         clientSecret={CLIENT_SECRET}
+         redirectUri={REDIRECT_URI}
+         scope={SCOPE}
+       />
+     );
+   };
+   ```
 
 3. Find more info about keys and OAuth apps in [Figma official docs](https://www.figma.com/developers/api#oauth2)
 
@@ -59,7 +59,7 @@ export default props => {
 | clientSecret | string                                                     | required  | Client Secret of your OAuth App                                        |
 | redirectUri  | string                                                     | required  | Authorization callback URL of your OAuth App                           |
 | scope        | string                                                     | required  | Scope that will be requested. For now only `"file_read"` is available. |
-| buttonTheme  | enum(`"light"`, `"light_short"`, `"dark"`, `"dark_short"`) | `"light"` | Button style theme that based on Figma styles                         |
+| buttonTheme  | enum(`"light"`, `"light_short"`, `"dark"`, `"dark_short"`) | `"light"` | Button style theme that based on Figma styles                          |
 | className    | string                                                     | `""`      | Custom class name                                                      |
 
 ### 📝 License
