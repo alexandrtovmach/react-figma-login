@@ -64,4 +64,4 @@ Follow these steps to start using React Figma Login:
 
 ### 📝 License
 
-[MIT](https://github.com/nishanths/license/blob/master/LICENSE)
+[MIT](https://github.com/alexandrtovmach/react-figma-login/blob/master/LICENSE)
