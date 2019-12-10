@@ -2,7 +2,7 @@
   "name": "react-figma-login",
   "description": "React component for simple OAuth with Figma",
   "main": "dist/index.js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": {
     "name": "Alexandr Tovmach",
     "url": "https://alexandrtovmach.com/",
