@@ -1,9 +1,8 @@
-# React Figma Login
+# react-figma-login
 
 [![npm](https://img.shields.io/npm/v/react-figma-login?logo=npm&cacheSeconds=1800)](https://www.npmjs.com/package/react-figma-login)
-[![npm](https://img.shields.io/npm/dt/react-figma-login?cacheSeconds=1800)](https://www.npmjs.com/package/react-figma-login)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-figma-login?cacheSeconds=1800)](https://www.npmjs.com/package/react-figma-login)
-[![GitHub issues](https://img.shields.io/github/issues/alexandrtovmach/react-figma-login?cacheSeconds=1800)](https://github.com/alexandrtovmach/react-figma-login/issues)
+[![npm](https://img.shields.io/npm/dt/react-figma-login?cacheSeconds=1800)](https://www.npmjs.com/package/react-figma-login)
 
 React component for a simple OAuth login with Figma.
 
@@ -11,7 +10,7 @@ React component for a simple OAuth login with Figma.
 
 ![image](https://user-images.githubusercontent.com/28801003/70469597-ff2f5300-1ad1-11ea-880f-2d604d9ed41b.png)
 
-### 🚀 Get Started
+## 🚀 Get Started
 
 Follow these steps to start using React Figma Login:
 
@@ -50,7 +49,7 @@ Follow these steps to start using React Figma Login:
 
 3. Find more info about keys and OAuth apps in [Figma official docs](https://www.figma.com/developers/api#oauth2)
 
-### 📖 API
+## 📖 API
 
 | Property     | Type                                                       | Default   | Description                                                            |
 | ------------ | ---------------------------------------------------------- | --------- | ---------------------------------------------------------------------- |
@@ -62,6 +61,6 @@ Follow these steps to start using React Figma Login:
 | buttonTheme  | enum(`"light"`, `"light_short"`, `"dark"`, `"dark_short"`) | `"light"` | Button style theme that based on Figma styles                          |
 | className    | string                                                     | `""`      | Custom class name                                                      |
 
-### 📝 License
+## 📝 License
 
-[MIT](https://github.com/nishanths/license/blob/master/LICENSE)
+[MIT](https://github.com/alexandrtovmach/react-figma-login/blob/master/LICENSE)

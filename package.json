@@ -2,8 +2,12 @@
   "name": "react-figma-login",
   "description": "React component for simple OAuth with Figma",
   "main": "dist/index.js",
-  "version": "1.0.3",
-  "author": "alexandrtovmach@gmail.com",
+  "version": "1.0.5",
+  "author": {
+    "name": "Alexandr Tovmach",
+    "url": "https://alexandrtovmach.com/",
+    "email": "alexandrtovmach@gmail.com"
+  },
   "private": false,
   "scripts": {
     "watch": "tsc --watch",
@@ -68,5 +72,8 @@
   "bugs": {
     "url": "https://github.com/alexandrtovmach/react-figma-login/issues"
   },
-  "homepage": "https://github.com/alexandrtovmach/react-figma-login#readme"
+  "homepage": "https://alexandrtovmach.github.io/react-figma-login",
+  "repository": {
+    "url": "https://github.com/alexandrtovmach/react-figma-login"
+  }
 }
