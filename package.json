@@ -7,7 +7,7 @@
   "private": false,
   "scripts": {
     "watch": "tsc --watch",
-    "develop": "webpack-dev-server --mode development",,
+    "develop": "webpack-dev-server --mode development",
     "prepublishOnly": "rm -rf ./dist && tsc",
     "build": "rm -rf ./dist && tsc && webpack",
     "deploy": "lint-staged && npm run build && gh-pages -d examples/dist",
